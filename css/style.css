@@ -1,0 +1,71 @@
+body {
+    min-width: 700px;
+}
+
+#nav {
+    background-color: #323c49f6;
+
+}
+
+#profil-img {
+    width: 70px;
+    height: 70px;
+}
+
+#menu li {
+    font-size: 25px;
+    color: #748192;
+    cursor: pointer;
+}
+
+#menu li:hover {
+    color: #d7d7d7;
+}
+
+#menu li.active-now {
+    color: #fff;
+}
+
+#logo {
+    width: 100%px;
+    max-width: 230px;
+}
+
+.icons-header {
+    font-size: 1.5em;
+}
+
+.nav-icons:hover .icons-header {
+    color: #fff;
+}
+
+.navbar-bg {
+    background-color: #313A46;
+    /*border-bottom: 1px solid #fff;*/
+}
+
+.btn-search {
+    background-color: #555c83;
+    color: #fff;
+    font-size: larger;
+}
+
+.btn-search:hover {
+    background-color: #727aaa;
+    color: #fff;
+}
+
+.nav-icons .icons-header {
+    color: #748192;
+
+}
+.icon-show-nav {
+ background-color: #727aaa;
+    color: #fff;
+    font-size: large;
+    padding:5px;
+
+}.icon-show-nav:hover{
+     background-color: #5a5d72;
+    
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="path/to/bootstrap-icons/bootstrap-icons.css">
+    <title>Admin</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" integrity="sha512-+ZrT9T2Qo95P6v4aw7bF4w4dV2eThk6NRkV7pS/RB9Xsh7b5z6n5P6h/dz6i5H6cnd1LkFFCewoepPZ9H3i2xQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="row">
+        <main class="m-0 p-0">
+            <div class="navbar navbar-bg navbar-dark text-white ps-2 py-1">
+                <div id="div-logo" class="mx-3">
+                    <img src="photos/logo.png" id="logo" alt="logo">
+                </div>
+                <form class="ms-5 d-none d-xl-flex" role="search" id="mainmunu">
+                    <input class="form-control rounded-0" type="search" placeholder="Bare de recherche..."aria-label="Search">
+                    <button class="btn btn-search rounded-0" type="submit">Recherche</button>
+                </form>
+                <ul class="ms-auto d-flex m-0 list-unstyled ">
+                    
+                    <li class="nav-icons d-xl-none ">
+                        <div class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmunu">
+                            <a href="#search" class="nav-link"> <i class="bi bi-search icons-header"></i> </a>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-icons ">
+                        <a href="#notification" class="nav-link"> <i class="bi bi-bell-fill icons-header"></i></a>
+                    </li>
+                    <li class="nav-icons">
+                        <a href="#paraméters" class="nav-link"> <i class="bi bi-gear-fill icons-header"></i></a>
+                    </li>
+                    <li class="nav-icons">
+                        <a href="#mode" class="nav-link"> <i class="bi bi-circle-half icons-header"></i></a>
+                    </li>
+                    <li class="nav-icons">
+                        <a href="#close" class="nav-link"> <i class="bi bi-fullscreen icons-header"></i></a>
+                    </li>
+                </ul>
+                <div class="d-flex mx-4 ">
+                    <img class="rounded-circle " style="width: 65px; height: 65px;" src="photos/profile3.png" alt="profil">
+                    <div class="ms-2 d-none d-md-block">
+                        <span class="d-block fs-5 fw-bold">Ahmed Alami</span>
+                        <span class="d-block fw-light">Admin</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="">
+        <div class="d-flex">
+            <div class="p-0 d-none d-md-inline" id="nav">
+                <div id="menu" class="mt-4">
+                    <ul class="list-unstyled">
+                         
+                        <li class="mx-4 mb-4 fw-bold"><i class="bi bi-bell-fill "></i><span
+                                class="ms-3 d-none d-xl-inline">Notification</span></li>
+                        <li class="mx-4 mb-4 fw-bold"><i class="bi bi-chat-left-text-fill"></i><span
+                                class="ms-3 d-none d-xl-inline">Messages</span></li>
+                        <li class="mx-4 mb-4 fw-bold"><i class="bi bi-person-fill"></i><span
+                                class="ms-3 d-none d-xl-inline">Profile</span></li>
+                        <li class="mx-4 mb-4 fw-bold"><i class="bi bi-journal-text"></i><span
+                                class="ms-3 d-none d-xl-inline">Demandes</span></li>
+                        <li class="mx-4 mb-4 fw-bold"><i class="bi bi-emoji-angry-fill"></i><span
+                                class="ms-3 d-none d-xl-inline">Plaines</span></li>
+                        <li class="mx-4 mb-4 fw-bold"><i class="bi bi-person-fill"></i><span
+                                class="ms-3 d-none d-xl-inline">Employés</span></li>
+                        <li class="mx-4 mb-4 fw-bold"><i class="bi bi-gear"></i><span
+                                class="ms-3 d-none d-xl-inline">Paramétres</span>
+                        </li>
+                        <button type="button" class=" ms-5 mb-5 btn btn-danger fw-bold">déconnecter</button>
+                    </ul>
+                </div>
+            </div>
+            <i class="bi bi-list icons-header icon-show-nav d-block d-md-none" ></i>
+        </div>
+        
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
